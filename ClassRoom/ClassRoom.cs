@@ -15,9 +15,11 @@ namespace ClassRoom
         #endregion
 
         #region Constructor
-        public ClassRoom()
+        public ClassRoom( string name, List<Student> list, DateTime semesterStart)
         {
-            
+            _className = name;
+            _classList = list;
+            _semesterStart = semesterStart;
         }
         #endregion
 
